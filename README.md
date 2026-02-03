@@ -12,8 +12,8 @@ This library operationalizes the concept of model belief introduced in:
 > https://arxiv.org/abs/2512.23184
 
 The key idea is simple:
-> An LLM’s final choice is only one draw from an internal probability distribution. \
-> Model belief extracts that distribution directly from token-level logits in a single run.
+> **An LLM’s final choice is only one draw from an internal probability distribution.**  
+> **Model belief extracts that distribution directly from token-level logits in a single run.**  
 
 ---
 
