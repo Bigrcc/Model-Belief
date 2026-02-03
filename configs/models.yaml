@@ -24,3 +24,4 @@ openai:
   pivot_judge:
     model: gpt-5-mini-2025-08-07
     max_completion_tokens: 64
+    temperature: 0.0

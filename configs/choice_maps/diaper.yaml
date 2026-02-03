@@ -43,10 +43,8 @@ pivot:
 
   llm_judge:
     # Use an LLM to pick the pivot index.
-    model: gpt-5-mini-2025-08-07
-    temperature: 0.0
-    max_completion_tokens: 64
-    return_format: json      # enforce {"pivot_index": int}
+    # Model/temperature/max_tokens are configured in configs/models.yaml (openai.pivot_judge).
+    place_holder: true   # Unused, for documentation only.
 
   custom:
     # Custom pivot-finding function
