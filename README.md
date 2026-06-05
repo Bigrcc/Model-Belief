@@ -1,6 +1,10 @@
 # Model-Belief  
 **Token-Level Belief Extraction for Language Models**
 
+<p align="center">
+  <img src="figures/model-belief-hero.png" alt="Model-Belief: one output to full belief distribution" width="100%">
+</p>
+
 Model-Belief is a lightweight Python library for extracting 
 **belief distributions** from large language models (LLMs) with respect to a predefined *alternative set*. 
 It operationalizes the idea that an LLM’s decision is revealed at a **specific token position**—the *pivot token*—and 
